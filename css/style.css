@@ -43,6 +43,53 @@ line-height: 50px;
 
 /* nav bar */
 .nav-bar{
+  display: flex;
   width : 100%;
-  height: 50px;
+  height: 100px;
+  line-height: 100px;
+  margin-left: 10%;
 }
+.nav-bar img{
+  width: 7em;
+}
+.nav-bar li{
+  display: inline-block;
+  line-height: 50px;
+}
+.nav-bar a{
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+  margin: 0 20px;
+}
+.nav-bar a:hover{
+  color: white;
+}
+
+.nav-bar .left{
+  margin-left: 20px;
+  position: relative;
+}
+.nav-bar .right{
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .right span{
+  border: solid black 1px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.3em;
+}
+
+/* dropdown */
+
+.denaro.dropdown{
+  position: absolute;
+  width: 250px;
+  height: 220px;
+  border: 1px solid black;
+  border-radius: 20px;
