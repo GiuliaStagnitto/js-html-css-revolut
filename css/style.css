@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* top nav */
+
+.top-nav{
+  display: flex;
+  background-color: grey;
+  width: 100%;
+  height: 50px;
+}
+/* top nav left */
+
+.top-nav .left{
+  padding-left: 10%;
+}
+
+.top-nav li{
+display: inline-block;
+line-height: 50px;
+}
+
+.top-nav a{
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+  margin: 0 20px;
+}
+.top-nav a:hover{
+  color: white;
+}
+
+/* top nav right */
+
+.top-nav .right{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+
+/* nav bar */
+.nav-bar{
+  width : 100%;
+  height: 50px;
+}
