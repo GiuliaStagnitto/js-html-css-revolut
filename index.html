@@ -4,85 +4,148 @@
     <meta charset="utf-8">
     <title>Revolut</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   </head>
   <body>
-    <div class="top-nav">
-      <div class="top-nav left">
+    <main>
+      <div class="top-nav">
+        <div class="top-nav left">
+          <ul>
+            <li><a href="#">Personale</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+        </div>
+        <div class="top-nav right">
+          <ul>
+            <li><a href="#">Azienda</a></li>
+            <li><a href="#">Aiuto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <div class="">
+          <img src="img/Revolut.svg.png" alt="LOGO">
+        </div>
+        <div class="nav-bar left">
+          <ul>
+            <li><a href="#">Denaro</a>
+              <ul class="denaro dropdown">
+                <li><a href="#">Invia denaro all'estero</a></li>
+                <li><a href="#">Effettua e Ricevi pagamenti</a></li>
+                <li><a href="#">Paga con Apple Pay</a></li>
+                <li><a href="#">Paga con GPay</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Investimenti e Risparmi</a>
+              <ul class="investimenti dropdown">
+                <li><a href="#">Effettua compravendite di titoli azionari</a></li>
+                <li><a href="#">Effettua compravendite di prodotti</a></li>
+                <li><a href="#">Effettua compravendite Crypto</a></li>
+                <li><a href="#">Imposta i salvadanai</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Controllo</a>
+            <ul class="controllo dropdown">
+              <li><a href="#">Imposta i budjet</a></li>
+              <li><a href="#">Tutelati</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Altro</a>
+              <ul class="altro dropdown">
+                <li><a href="#">Assicura te stesso all'estero</a></li>
+                <li><a href="#">Assicura il tuo dispositivo</a></li>
+                <li><a href="#">Dona agli enti di beneficienza</a></li>
+                <li>  PROSSIMAMENTE</li>
+                <li>  Scopri i premi</li>
+              </ul>
+            </li>
+            <li><a href="#">Plans</a>
+              <ul class="plans dropdown">
+                <li><a href="#">Standard</a></li>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Metal</a></li>
+                <li><a href="#">Junior</a></li>
+                <li><a href="#">Tariffazione</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-bar right">
+          <span> Scarica l'app </span>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <div class="jumbotron-left">
+          <h1>Ottieni di più dai tuoi fondi</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .</p>
+
+        </div>
+        <!-- <input type="number" name="" value=""> -->
+        <div class="jumbotron-right">
+          <img src="img/home.png" alt="">
+        </div>
+      </div>
+    </main>
+    <div class="menu-responsive">
+      <div class="top-nav responsive">
         <ul>
           <li><a href="#">Personale</a></li>
           <li><a href="#">Business</a></li>
         </ul>
       </div>
-      <div class="top-nav right">
-        <ul>
-          <li><a href="#">Azienda</a></li>
-          <li><a href="#">Aiuto</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="nav-bar">
-      <div class="">
-        <img src="img/Revolut.svg.png" alt="LOGO">
-      </div>
-      <div class="nav-bar left">
+      <div class="lista-responsive">
         <ul>
           <li><a href="#">Denaro</a>
-            <ul class="denaro dropdown">
+            <ul class="lista dropdown">
               <li><a href="#">Invia denaro all'estero</a></li>
               <li><a href="#">Effettua e Ricevi pagamenti</a></li>
               <li><a href="#">Paga con Apple Pay</a></li>
               <li><a href="#">Paga con GPay</a></li>
             </ul>
-          </li>
+          </li> <i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
           <li><a href="#">Investimenti e Risparmi</a>
-            <ul class="investimenti dropdown">
+            <ul class="lista dropdown">
               <li><a href="#">Effettua compravendite di titoli azionari</a></li>
               <li><a href="#">Effettua compravendite di prodotti</a></li>
               <li><a href="#">Effettua compravendite Crypto</a></li>
               <li><a href="#">Imposta i salvadanai</a></li>
             </ul>
-          </li>
+          </li><i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
           <li><a href="#">Controllo</a>
-          <ul class="controllo dropdown">
+          <ul class="lista dropdown">
             <li><a href="#">Imposta i budjet</a></li>
             <li><a href="#">Tutelati</a></li>
           </ul>
-          </li>
+          </li><i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
           <li><a href="#">Altro</a>
-            <ul class="altro dropdown">
+            <ul class="lista dropdown">
               <li><a href="#">Assicura te stesso all'estero</a></li>
               <li><a href="#">Assicura il tuo dispositivo</a></li>
               <li><a href="#">Dona agli enti di beneficienza</a></li>
               <li>  PROSSIMAMENTE</li>
               <li>  Scopri i premi</li>
             </ul>
-          </li>
+          </li><i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
           <li><a href="#">Plans</a>
-            <ul class="plans dropdown">
+            <ul class="lista dropdown">
               <li><a href="#">Standard</a></li>
               <li><a href="#">Premium</a></li>
               <li><a href="#">Metal</a></li>
               <li><a href="#">Junior</a></li>
               <li><a href="#">Tariffazione</a></li>
             </ul>
-          </li>
+          </li><i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
         </ul>
       </div>
-      <div class="nav-bar right">
-        <span> Scarica l'app </span>
+      <div class="lista-responsive">
+        <ul>
+          <li><a href="#">Azienda</a></li><i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
+          <li><a href="#">Aiuto</a></li><i class="fas fa-angle-down"></i><i class="fas fa-angle-up"></i>
+        </ul>
       </div>
     </div>
-    <div class="jumbotron">
-      <div class="jumbotron-left">
-        <h1>Ottieni di più dai tuoi fondi</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      </div>
-      <!-- <input type="number" name="" value=""> -->
-      <div class="jumbotron-right">
-        <img src="img/home.png" alt="">
-      </div>
-    </div>
+
 
     <script src="js/script.js" charset="utf-8"></script>
   </body>
