@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
 }
 
 /* top nav */
 
 .top-nav{
   display: flex;
-  background-color: grey;
+  background-color: #f0efeb;
   width: 100%;
   height: 50px;
 }
@@ -26,11 +28,11 @@ line-height: 50px;
 .top-nav a{
   text-decoration: none;
   list-style-type: none;
-  color: #000;
+  color: grey;
   margin: 0 20px;
 }
 .top-nav a:hover{
-  color: white;
+  color: black;
 }
 
 /* top nav right */
@@ -51,6 +53,7 @@ line-height: 50px;
 }
 .nav-bar img{
   width: 7em;
+  margin-right: 50px;
 }
 .nav-bar li{
   display: inline-block;
@@ -59,37 +62,111 @@ line-height: 50px;
 .nav-bar a{
   text-decoration: none;
   list-style-type: none;
-  color: #000;
+  color: grey;
   margin: 0 20px;
 }
 .nav-bar a:hover{
-  color: white;
+  color: black;
 }
 
-.nav-bar .left{
+.nav-bar.left{
   margin-left: 20px;
   position: relative;
+  width: 50%;
 }
-.nav-bar .right{
+.nav-bar.right{
   display: flex;
   align-items: center;
+  width: 20%;
 }
 
-.nav-bar .right span{
+.nav-bar.right span{
   border: solid black 1px;
   border-radius: 15px;
   background-color: black;
   color: white;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1.3em;
+  height: 40px;
+  line-height: 18px;
+  padding: 10px;
+  font-size: 1.2em;
 }
 
 /* dropdown */
-
-.denaro.dropdown{
+.dropdown{
   position: absolute;
+  z-index: 3;
+  box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  display: none;
+}
+.show{
+  display: block;
+}
+
+.denaro li{
+  display: block;
+}
+.denaro.dropdown{
+  /* display: none; */
+}
+.investimenti li{
+  display: block;
+}
+.investimenti.dropdown{
+  /* display: none; */
+}
+.controllo li{
+  display: block;
+}
+.controllo.dropdown{
+  /* display: none; */
+}
+.altro li{
+  display: block;
+  color: #f0efeb;
+  margin: 0 20px;
+}
+.altro li a{
+  margin: 0;
+}
+
+.altro.dropdown{
   width: 250px;
-  height: 220px;
-  border: 1px solid black;
-  border-radius: 20px;
+  height: auto;
+  /* display: none; */
+}
+.plans li{
+  display: block;
+}
+.plans.dropdown{
+  /* display: none; */
+}
+
+/* jumbotron */
+
+.jumbotron{
+  display: flex;
+  width: 80%;
+  margin: 10% 15%;
+}
+
+
+.jumbotron-left{
+  display: inline-block;
+  width: 30%;
+  margin-right: 20%;
+}
+.jumbotron-left h1{
+ font-size: 5em;
+ margin-bottom: 10%;
+}
+.jumbotron-right{
+  width: 50%;
+
+}
+
+.jumbotron-right img{
+  width: 500px;
+  height: 600px;
+
+}
