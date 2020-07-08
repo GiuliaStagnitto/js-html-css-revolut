@@ -90,9 +90,7 @@ line-height: 50px;
   margin-left: 100px;
 }
 .nav-bar.left{
-  overflow: hidden;
   margin-left: 20px;
-  position: relative;
   width: 80%;
   margin: 0 40px;
 }

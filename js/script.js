@@ -10,11 +10,15 @@ $('.top-nav.responsive i').click(function(){
   $('.menu-responsive').addClass('hide');
 });
 
+
 $('.nav-bar a').click(function(){
   $('.dropdown').removeClass('hide');
+  $('.dropdown').addClass('show');
 
 });
 
-$('.nav-bar a').click(function(){
+$('').click(function(){
+  $('.dropdown').removeClass('show');
   $('.dropdown').addClass('hide');
+
 });
