@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
   font-family: 'Varela Round', sans-serif;
 }
 main{
@@ -184,9 +183,6 @@ line-height: 50px;
 
 
 /* menu responsive */
-.fa-angle-up{
-  display: none;
-}
 .top-nav.responsive{
   height: 100px;
 }
@@ -203,7 +199,7 @@ line-height: 50px;
 .icone {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   /* padding: 0 10%; */
 }
 
@@ -213,6 +209,14 @@ line-height: 50px;
   color: grey;
   margin: 0 20px;
 }
+.lista{
+  display: none;
+}
+.lista-responsive{
+  margin-top: 40px;
+}
+
+
 .lista-responsive a:hover{
   color: black;
 }
