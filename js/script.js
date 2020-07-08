@@ -10,18 +10,18 @@ $(document).ready(function (){
     $('main').removeClass('hide');
     $('.menu-responsive').addClass('hide');
   });
-// quando clicco sulle icone a freccetta delle comparire la freccia opposta
-  $('div .icone').click(function(){
-    var visibile = $('.fas.fa-angle-down').hasClass('hide');
+// quando clicco sulle icone a freccetta delle comparire la lista
+  $('li.padre').click(function(){
 
-    if (visibile == false) {
-      $('.lista').slideDown(2000, function(){
+    $('.lista').slideUp(2000);
+    $('.fas.fa-angle-down').removeClass('hide');
+    
+      $(this).children('.lista').slideDown(2000, function(){
         $('.fas.fa-angle-down').addClass('hide');
       });
-    } else {
-      $('.lista').slideUp(2000);
-      $('.fas.fa-angle-down').removeClass('hide');
-    }
+
+    console.log($(this).children('.lista'));
   });
+
 
 });

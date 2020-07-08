@@ -202,10 +202,13 @@ line-height: 50px;
   justify-content: space-between;
   /* padding: 0 10%; */
 }
+.lista-responsive ul{
+  list-style-type: none;
+}
 
 .lista-responsive a{
   text-decoration: none;
-  list-style-type: none;
+
   color: grey;
   margin: 0 20px;
 }
